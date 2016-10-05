@@ -9,7 +9,7 @@ class Task {
    * Task.create({ 'app/root' : false })
    * 
    * // Create a task with multiple operations
-   * Task.create({ 'app/js' : [{ 'babelify': { options: { /* babelify options */ } }}, {'operation...n': {}}]
+   * Task.create({ 'app/js' : [{ 'babelify': { options: { babelify options } }}, {'operation...n': {}}]
    *
    * // Create multiple tasks
    * Task.create({
